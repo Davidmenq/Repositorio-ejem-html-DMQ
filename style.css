@@ -1,0 +1,29 @@
+header{
+    background-color:black;
+    color:white;
+}
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+a{
+    color:inherit;
+}/*los elementos tienen el color del padre*/
+nav{
+    background-color:red;
+    color:white;
+}
+main{
+    background-color:yellow;
+}
+footer{
+    background-color:black;
+    color:white;
+}
+
+@media(max-width:600px){
+    header{
+        background-color:darkslategray;
+        color:white;
+    }
+}

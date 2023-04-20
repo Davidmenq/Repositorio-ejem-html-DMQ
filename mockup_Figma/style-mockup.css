@@ -1,0 +1,174 @@
+html {
+    background: #d9d9d9;
+}
+
+body {
+    background: white;
+}
+
+nav {
+    position: absolute;
+    width: 393px;
+    height: 42px;
+    background: white;
+
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+#logo {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 172px;
+    top: 13px;
+}
+
+#menu {
+    position: absolute;
+    width: 53px;
+    height: 24px;
+    left: 10px;
+    top: 11px;
+    background: #d9d9d9;
+}
+
+#login {
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 269px;
+    top: 11px;
+    background: #D9D9D9;
+}
+
+#cart {
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 330px;
+    top: 11px;
+    background: #D9D9D9;
+}
+
+.descripcion {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 393px;
+    height: 307px;
+    left: 0px;
+    top: 42px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.descripcion h1 {
+    position: absolute;
+    width: 181px;
+    height: 65px;
+    left: 10px;
+    top: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+#d-descripcion {
+    position: absolute;
+    width: 125px;
+    height: 37px;
+    left: 11px;
+    top: 143px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+#d-reservar {
+    background: #d9d9d9;
+    position: absolute;
+    text-align: center;
+    width: 109px;
+    height: 28px;
+    left: 19px;
+    top: 254px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.opciones {
+    box-sizing: border-box;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 45px;
+
+    width: 393px;
+    height: 88px;
+    left: 0px;
+    top: 349px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.opciones button {
+    width: 51px;
+    height: 28px;
+    background: #D9D9D9;
+    border: none;
+
+}
+
+.previsualizar {
+    box-sizing: border-box;
+
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 393px;
+    height: 413px;
+    left: 0px;
+    top: 437px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.previsualizar ul li {
+    width: 357px;
+    height: 114px;
+    left: 14px;
+    top: 460px;
+    background: #D9D9D9;
+margin-top:16px;
+}
