@@ -1,0 +1,111 @@
+html {
+    background: #d9d9d9;
+}
+
+body {
+    background: white;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    position: absolute;
+    width: 393px;
+    height: 852px;
+
+}
+
+header {
+
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    background: white;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#logo {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 172px;
+    top: 13px;
+}
+
+
+#menu {
+    position: absolute;
+    width: 53px;
+    height: 24px;
+    left: 10px;
+    top: 11px;
+    background: #d9d9d9;
+}
+
+#user {
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 269px;
+    top: 11px;
+    background: #ffffff;
+}
+
+#cart {
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 330px;
+    top: 11px;
+    background: #D9D9D9;
+}
+
+main {
+    box-sizing: border-box;
+    position: absolute;
+    width: 393px;
+    height: 852px;
+    top: 42px;
+    background: #FFFFFF;
+    padding: 112px 42px 23px 37px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #000000;
+
+}
+
+main h1 {
+    box-sizing: border-box;
+    align-self: center;
+    text-align: left;
+    top: 29px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+main p {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    width:314px;
+    height:289px;
+    padding-bottom:50%;
+}
+
+main button {
+    box-sizing: border-box;
+    border: none;
+    width: 331px;
+    height: 39px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    align-self: center;
+    bottom: 15px;
+}
