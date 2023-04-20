@@ -10,46 +10,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style-mockup.css">
+    <link rel="stylesheet" href="reserva.css">
 </head>
 
 <body>
-    <nav>
+    <header>
         <p id="logo">Logo</p>
         <ul class="navegacion">
             <li id="menu">menu</li>
-            <li id="login">login</li>
+            <li id="user">User</li>
             <li id="cart">cart</li>
         </ul>
-    </nav>
+    </header>
 
     <main>
-
-        <div class="descripcion">
-            <h1>Restaurante</h1>
-            <p id="d-descripcion">Descripcion</p>
-            <p id="d-reservar">reservar</p>
-        </div>
-        <div class="opciones">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-        </div>
-        <div class="previsualizar">
+        <h1>Reserva una mesa</h1>
+        <div class="mesas">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li type="text" class="elipse">T1</li>
+                <li type="text" class="elipse">T2</li>
+                <li type="text" class="elipse">T3</li>
+                <li type="text" class="elipse">T4</li>
             </ul>
         </div>
 
+        <div class="input-reserva">
+
+            <div class="cajita">
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="trip-satart" value="04-20-2023" min="04-20-2023" max="12-31-2023">
+            </div>
+
+            <div class="cajita">
+                <label for="comida">Comida</label>
+                <input type="text" id="comida">
+            </div>
+
+            <div class="cajita">
+                <label for="cantidad">Cantidad</label>
+                <input type="text" id="cantidad">
+            </div>
+
+        </div>
+        <button>PAGAR</button>
+
+
     </main>
 
-    <footer>
-
-    </footer>
 </body>
 
 </html>
