@@ -97,16 +97,24 @@ main h1 {
 
 .mesas ul {
     box-sizing: border-box;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
+    height:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "elipse1, elipse2"
+    "elipse3, elipse4";
+    gap:10px;
+    justify-items:center;
+    align-items:center;
     border: #000000 solid 1px;
-    padding: 14 12 40 30;
-
 }
 
-.elipse {
+.mesas ul > li {
     box-sizing: border-box;
     width: 121px;
     height: 111px;
@@ -115,7 +123,14 @@ main h1 {
     text-align: center;
     padding-top: 40px;
     margin: 10px;
+    transition: 0.5s;
+}
 
+.mesas ul  li:hover{
+    background: green;
+    color:white;
+    box-shadow: 0px 0px 10px 20px rgba(243, 207, 8, 0.5);
+    border:none;
 }
 
 
